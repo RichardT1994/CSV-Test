@@ -6,12 +6,11 @@ namespace CSV_Test
     {
         static void Main(string[] args)
         {
-
             string fname = "Rick";
             string lname = "Tucker";
             string email = "test";
             string address = "test street";
-            string hphone ="304-590-8335";
+            string hphone ="304-123-1000";
             string counties = "Kanawha";
             string route = "52";
             string rdname = "taco";
@@ -19,8 +18,6 @@ namespace CSV_Test
             string gps = "the map";
             string description = "Read the map morty";
             string city = "Fresh";
-
-
 
             createlog(DateTime.Now.ToString(), fname, lname, email, address, hphone, counties, route, rdname, landmark, gps, description, city);
             static void createlog(string date, string fname, string lname, string email, string address, string hphone, string counties, string route, string rdname, string landmark, string gps, string description, string city)
@@ -42,7 +39,6 @@ namespace CSV_Test
                     throw new ApplicationException("Crashed", ex);
                 }
             }
-           // addRecord("124", "Mercy", "56", "cake.txt");
         }
         /*public static void addRecord(string ID, string name, string age, string filepath)
             {
@@ -57,7 +53,6 @@ namespace CSV_Test
                 {
                 throw new ApplicationException("Crashed", ex);
                 }
-            }*/
-       
+            }*/     
     }
 }
